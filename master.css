@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+* {
+  font-family: "Open Sans", "Roboto", helvetica, georgia, monospace;
+  font-weight: lighter;
+}
+.NavBar {
+  width: 100%;
+  background-color: #075b8c;
+  margin-left: 0px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.NavBar ul {
+  margin-top: 15px;
+  list-style-type: none;
+  padding-left: 0%;
+  position: fixed;
+  background-color: #075b8c;
+  border: 1px solid #fff;
+  z-index: 1;
+}
+.NavBar li {
+  background-color: inherit;
+  float: left;
+  font-size: 11pt;
+  overflow: visible;
+}
+.NavBar a {
+  text-decoration: none;
+  margin-top: 0px;
+  background-color: #075b8c;
+  padding: 20px;
+  border: 1px solid #075b8c;
+  color: white;
+}
+.NavBar a:hover {
+  color: #075b8c;
+  background-color: white;
+  transition: 0.8s;
+  box-shadow: 1px 1px 01px lightskyblue;
+}
+.NavBar ul ul {
+  display: none;
+  margin: 0;
+  margin-top: 19px;
+  box-shadow: 0 0 0 0;
+}
+.NavBar ul li:hover > ul {
+  display: grid;
+}
+.NavBar ul ul li {
+  text-align: center;
+}
+.NavBar ul ul li a {
+  padding: 10px;
+}
+.nbf {
+  width: 100%;
+  height: 80px;
+}
+
+.center {
+  text-align: center;
+}
+.navbar-brand {
+  font-size: 30px;
+}
+.Footer {
+  background-image: url("./img/bab.png");
+  background-repeat: no-repeat;
+  padding: 20px 0 20px 0;
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+}
+.Footer .mimg {
+  width: 15px;
+  height: 15px;
+}
+.Footer table {
+  width: 100%;
+  text-align: center;
+  font-size: 13pt;
+}
+.Footer td {
+  width: 33.33%;
+}
+.Footer p {
+  line-height: 1.5;
+}
+.Footer a {
+  text-decoration: none;
+  color: inherit;
+}
+.Admission a {
+  padding: 15px;
+  border: 1px solid navy;
+  background-color: transparent;
+}
+.Admission a:hover {
+  transition: 0.5s;
+  border: 1px solid white;
+  color: white;
+  background-color: navy;
+}
+.BigIcons img {
+  padding: 20px;
+  height: 40px;
+  width: 40px;
+}
+.Facebook img {
+  background-image: url("./img/Icons/Facebook_Round.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+.Facebook img:hover {
+  transition: 800ms;
+  background-image: url("./img/Icons/Facebook_Round_Filled.png");
+}
+.Linkedin img {
+  background-image: url("./img/Icons/Linkedin_Round.png");
+  background-repeat: no-repeat;
+  background-size: 40px;
+}
+.Linkedin img:hover {
+  background-image: url("./img/Icons/Linkedin_Round_Filled.png");
+}
+.MessagesTab {
+  display: none;
+}
